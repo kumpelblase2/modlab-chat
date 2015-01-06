@@ -1,0 +1,25 @@
+{
+    "name": "modlab-chat",
+    "version": "0.0.2",
+    "description": "Chat part of modlab",
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kumpelblase2/modlab-chat.git"
+    },
+    "dependencies": {
+        "irc": "~0.3.7",
+        "scoped-http-client": "~0.9.8",
+        "log": "~1.4.0"
+    },
+    "devDependencies": {
+        "coffee-script": "~1.8.0"
+    },
+    "keywords": ["chat"],
+    "author": "kumpelblase2",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kumpelblase2/modlab-chat/issues"
+    },
+    "homepage": "https://github.com/kumpelblase2/modlab-chat"
+}
