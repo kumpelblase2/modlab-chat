@@ -229,11 +229,13 @@ class Bot
   loadAdapter: (path, adapter) ->
     @logger.debug "Loading adapter #{adapter}"
 
+    path = path || './adapters'
+
     try
       path = if adapter in DEFAULT_ADAPTER
         "#{path}/#{adapter}"
       else
-        "hubot-#{adapter}"
+        adapter
 
       @adapter = require(path).use @
     catch err
